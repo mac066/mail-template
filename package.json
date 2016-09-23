@@ -1,0 +1,56 @@
+{
+  "name": "template-notify",
+  "version": "0.0.4",
+  "description": "Template based Email/SMS Notifications",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "dependencies": {
+    "debug": "*",
+    "jade": "*",
+    "nodemailer": "^2.4.2",
+    "proc-utils": "^1.0.0",
+    "pug": "^2.0.0-beta3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vnykmshr/template-notify.git"
+  },
+  "author": {
+    "name": "Vinayak Mishra",
+    "email": "viks@vnykmshr.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vnykmshr/template-notify/issues"
+  },
+  "gitHead": "b0de2c1459cdae46dee73a61aa817c297356535c",
+  "homepage": "https://github.com/vnykmshr/template-notify#readme",
+  "_id": "template-notify@0.0.4",
+  "_shasum": "66df8c9f6dc7240dffae4cd73aeed5e9d8789e09",
+  "_from": "template-notify@latest",
+  "_npmVersion": "3.10.0",
+  "_nodeVersion": "6.0.0",
+  "_npmUser": {
+    "name": "vnykmshr",
+    "email": "viks@vnykmshr.com"
+  },
+  "dist": {
+    "shasum": "66df8c9f6dc7240dffae4cd73aeed5e9d8789e09",
+    "tarball": "https://registry.npmjs.org/template-notify/-/template-notify-0.0.4.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "vnykmshr",
+      "email": "viks@vnykmshr.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/template-notify-0.0.4.tgz_1466583836178_0.14838759205304086"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/template-notify/-/template-notify-0.0.4.tgz",
+  "readme": "ERROR: No README data found!"
+}
