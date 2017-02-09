@@ -21,6 +21,36 @@ module.exports = function (emailConfig, templateConfig) {
 //-- Test Code ----------------------------------------------------------
 if (require.main === module) {
   (function () {
-    console.log(module.exports);
+var path = require('path');
+var util = require('util');
+
+  var emailConfig={
+    email:{
+            subjectPrefix :"XX",
+            sender:"XX",
+            host:'smtp.gmail.com',
+            port:465,
+            auth:{
+                user:'XXX',
+                pass:'XXX'
+            }
+    }
+    }
+
+var templateConfig = {
+    dir: path.join(__dirname, 'template')
+};
+
+var nm = require('./')(emailConfig, templateConfig);
+
+var recipients = ['thechoosenman113@gmail.com'];
+
+var options = {
+    template: 'mail',
+    subject :"support",
+    from : "sagar"
+};
+
+nm.email.send(recipients, options, console.log);
   })();
 }

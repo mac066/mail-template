@@ -10,6 +10,7 @@
     "debug": "*",
     "jade": "*",
     "nodemailer": "^2.4.2",
+    "nodemailer-smtp-pool": "^2.8.2",
     "proc-utils": "^1.0.0",
     "pug": "^2.0.0-beta3"
   },
